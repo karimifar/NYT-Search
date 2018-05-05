@@ -10,6 +10,60 @@
 
 </head>
 <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h1>New York Times Search</h1>
+            </div>
+        </div>
+        <div class="row">
+                <div class="card">
+                        <div class="card-header">
+                          Search Parameters
+                        </div>
+                        <div class="card-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label>Search Term:</label>
+                                        <input type="text" class="form-control" id="searchTerm" aria-describedby="emailHelp" placeholder="">
+                                        
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Number of Records To Retreive:</label>
+                                        <input type="text" class="form-control" id="recordNum" placeholder="5">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Start Year (Optional):</label>
+                                        <input type="text" class="form-control" id="startYear" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>End Year (Optional):</label>
+                                        <input type="text" class="form-control" id="endYear" placeholder="">
+                                    </div>
+                                   
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                    <button type="submit" class="btn btn-primary">Clear</button>
+                                </form>
+                        </div>
+
+
+                </div>
+        </div>
+        <div class="row">
+                <div class="card">
+                    <div class="card-header" id="articleHeader">
+                        Top Articles
+                    </div>
+                    <div class="card-body" id="articleResults">
+                    </div>
+                </div>
+        </div>
+
+
+
+
+
+    </div>
 
 </body>
 
